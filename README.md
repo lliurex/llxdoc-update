@@ -1,4 +1,6 @@
 llxdoc-mirror
 =============
 
-Guía de usuario de LliureX Mirror
+Guía de Usuario de LliureX Mirror
+
+Temporalmente construida en http://llx-mirror.rtfd.org/
