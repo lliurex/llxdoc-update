@@ -3,13 +3,13 @@ Créditos y Licencia
 
 La Guía de Usuario de LliureX Mirror ha sido desarrollada por el Equipo LliureX:
 
-* José Alfredo Múrcia
 * Ángel Berlanas
+* Vicent Balaguer
 * Héctor García
 * Raúl Rodrigo
 * David Montalvà
+* José Alfredo Múrcia
 * Javier Estellés
-* Vicent Balaguer
 * Juanjo Felis
 * Enrique Medina
 * Jaime Muñoz
