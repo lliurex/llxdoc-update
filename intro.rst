@@ -1,6 +1,14 @@
 Introducción a LliureX Mirror
 =============================
 
+¿Qué es LliureX Mirror?
+-----------------------
+
+LliureX Mirror es la aplicación para el mantenimiento de la copia del repositorio de paquetes de LliureX en un Servidor LliureX (bien sea de Aula o de Centro).
+
+¿Qué funcionalidad ofrece LliureX Mirror?
+-----------------------------------------
+
 Conceptos básicos
 -----------------
 
@@ -15,12 +23,6 @@ Dependencia
 
 Réplica (en inglés *mirror*)
   Copia exacta de un repositorio con la finalidad de agilizar el proceso de instalación de paquetes y evitar la descarga repetitiva de equipos iguales (caso de un aula de informática).
-
-¿Qué es LliureX Mirror?
------------------------
-
-¿Qué funcionalidad ofrece LliureX Mirror?
------------------------------------------
 
 Requisitos de funcionamiento
 ----------------------------
