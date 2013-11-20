@@ -4,13 +4,13 @@ Introducción a LliureX Mirror
 ¿Qué es LliureX Mirror?
 -----------------------
 
-LliureX Mirror es una aplicación para mantener una copia actualizada
-(*mirror*) del repositorio de paquetes de LliureX. La función principal
-de esta copia es la distribución óptima de la actualización de los
-equipos de un aula y/o de todo el centro. Además, a partir de LliureX
-Pandora 13.06, si emplea clientes ligeros en el centro, mantener una
-copia del repositorio de LliureX pasa a ser una parte fundamental y
-crítica, sin la cual no es posible funcionar.
+LliureX Mirror es una aplicación para crear y  mantener una copia
+actualizada (*mirror*) del repositorio de paquetes de LliureX. La
+función principal de esta copia es la distribución óptima de la
+actualización de los equipos de un aula y/o de todo el centro. Además,
+a partir de LliureX Pandora 13.06, si emplea clientes ligeros en el
+centro, mantener una copia del repositorio de LliureX pasa a ser una
+parte fundamental y crítica, sin la cual no es posible funcionar.
 
 LliureX es una distribución que está en constante evolución y mejora.
 Para poder disfrutar de las novedades, y de la corrección de los fallos
