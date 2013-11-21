@@ -4,79 +4,32 @@ Introducción a LliureX Mirror
 ¿Qué es LliureX Mirror?
 -----------------------
 
-LliureX Mirror es una aplicación para crear y  mantener una copia
-actualizada (*mirror*) del repositorio de paquetes de LliureX. La
-función principal de esta copia es la distribución óptima de la
-actualización de los equipos de un aula y/o de todo el centro. Además,
-a partir de LliureX Pandora 13.06, si emplea clientes ligeros en el
-centro, mantener una copia del repositorio de LliureX pasa a ser una
-parte fundamental y crítica, sin la cual no es posible funcionar.
+LliureX Mirror es una aplicación para crear y mantener una copia actualizada (*mirror*) del repositorio de paquetes de LliureX. La función principal de esta copia es la distribución óptima de la actualización de los equipos de un aula y/o de todo el centro. Además, a partir de LliureX Pandora 13.06, si emplea clientes ligeros en el centro, mantener una copia del repositorio de LliureX pasa a ser una parte fundamental y crítica, sin la cual no es posible funcionar.  
 
-LliureX es una distribución que está en constante evolución y mejora.
-Para poder disfrutar de las novedades, y de la corrección de los fallos
-que van surgiendo, es importante mantener los equipos actualizados. En
-los centros docentes hay un parque informático numeroso (desde unas
-pocas decenas de equipos hasta algún que otro centenar, según el
-centro). En lugar de descargar las actualizaciones desde cada uno de los
-ordenadores (lo cual colapsaría la conexión a Internet del centro), es
-más eficiente descargarse sólo los paquetes nuevos en un solo equipo
-(que actuará como copia o *mirror* local).
+LliureX es una distribución que está en constante evolución y mejora. Para poder disfrutar de las novedades, y de la corrección de los fallos que van surgiendo, es importante mantener los equipos actualizados. En los centros docentes hay un parque informático numeroso (desde unas pocas decenas de equipos hasta algún que otro centenar, según el centro). En lugar de descargar las actualizaciones desde cada uno de los ordenadores (lo cual colapsaría la conexión a Internet del centro), es más eficiente descargarse sólo los paquetes nuevos en un solo equipo (que actuará como copia o *mirror* local).
 
-De esta manera, si configuramos adecuadamente los equipos del centro,
-podremos hacer una actualización a la velocidad de la red local (100
-Mbps ó 1 Gbps, dependiendo de la infraestructura existente). Así pues,
-sólo se utilizaría el ancho de banda de la conexión a Internet para los
-nuevos paquetes *en un solo equipo*. No obstante, ha de tener en cuenta
-que la primera vez que se copia el repositorio, tendrá que descargarlo
-en su totalidad (actualmente unos 9 GB). Además, a partir de LliureX
-Pandora 13.06, se dispone de dos arquitecturas: 32 y 64 bits. Se emplea
-32 bits en equipamiento más antiguo y en la mayoría de clientes ligeros.
-Por lo tanto, puede ser necesario mantener ambos repositorios con lo
-cual duplicamos el tamaño necesario para descargar y alojar en el equipo
-que hará de *mirror* local.
+De esta manera, si configuramos adecuadamente los equipos del centro, podremos hacer una actualización a la velocidad de la red local (100 Mbps ó 1 Gbps, dependiendo de la infraestructura existente). Así pues, sólo se utilizaría el ancho de banda de la conexión a Internet para los nuevos paquetes *en un solo equipo*. No obstante, ha de tener en cuenta que la primera vez que se copia el repositorio, tendrá que descargarlo en su totalidad (actualmente unos 9 GB).
 
-Finalmente, LliureX Mirror le permite guardar en un dispositivo de
-almacenamiento externo (p.e. disco USB o *pendrive*) una copia del
-repositorio. Gracias a esta utilidad es posible descargarse el *mirror*
-en un sitio con buena conectividad y copiarlo en otro con mala o nula
-conectividad. El ejemplo más claro es el de un aulario o equipo que está
-aislado o funciona con un enlace *wifi*. De esta manera podemos mantener
-actualizados equipos en dicha situación.
+Además, a partir de LliureX Pandora 13.06, se dispone de dos arquitecturas: 32 y 64 bits. Se emplea 32 bits en equipamiento más antiguo y en la mayoría de clientes ligeros. Por lo tanto, puede ser necesario mantener ambos repositorios con lo cual duplicamos el tamaño necesario para descargar y alojar en el equipo que hará de *mirror* local.
 
-Para poder sacar el máximo partido a la herramienta de LliureX Mirror es
-necesario tener claro unos conceptos fundamentales. Los vemos a
-continuación.
+Finalmente, LliureX Mirror le permite guardar en un dispositivo de almacenamiento externo (p.e. disco USB o *pendrive*) una copia del repositorio. Gracias a esta utilidad es posible descargarse el *mirror* en un sitio con buena conectividad y copiarlo en otro con mala o nula conectividad. El ejemplo más claro es el de un aulario o equipo que está aislado o funciona con un enlace *wifi*. De esta manera podemos mantener actualizados equipos en dicha situación.
+
+Para poder sacar el máximo partido a la herramienta de LliureX Mirror es necesario tener claro unos conceptos fundamentales. Los vemos a continuación.
 
 Conceptos básicos
 -----------------
 
 Repositorio de paquetes (*pool*)
-  Directorio con un conjunto indexado de paquetes dispuestos para su
-descarga y posterior instalación. Como ejemplo, puede *navegar* por el
-repositorio de LliureX Pandora en: http://lliurex.net/pandora/
+  Directorio con un conjunto indexado de paquetes dispuestos para su descarga y posterior instalación. Como ejemplo, puede *navegar* por el repositorio de LliureX Pandora en: http://lliurex.net/pandora/
 
 Paquete
-  Archivo comprimido que contiene los ficheros y la información
-necesaria para instalar un programa o *parte* de un programa (p.e. una
-librería). Tienen la extensión *.deb* (Ubuntu está basado en *Debian*
-GNU/Linux, de ahí las letras de la extensión). Si ha navegado por el
-*pool* habrá encontrado estos archivos. Podemos ver por ejemplo los
-paquetes de LliureX Mirror en:
-http://lliurex.net/pandora/pool/main/l/lliurex-mirror/
+  Archivo comprimido que contiene los ficheros y la información necesaria para instalar un programa o *parte* de un programa (p.e. una librería). Tienen la extensión *.deb* (Ubuntu está basado en *Debian* GNU/Linux, de ahí las letras de la extensión). Si ha navegado por el *pool* habrá encontrado estos archivos. Podemos ver por ejemplo los paquetes de LliureX Mirror en: http://lliurex.net/pandora/pool/main/l/lliurex-mirror/
 
 Dependencia
-  Relación que se establece entre paquetes y que indica la
-necesidad de instalar previamente otros paquetes para el correcto
-funcionamiento de un paquete concreto. Para saber los paquetes de los
-que depende, por ejemplo, *stellarium* puede abrir el terminal y
-teclear: *apt-cache depends stellarium*
+  Relación que se establece entre paquetes y que indica la necesidad de instalar previamente otros paquetes para el correcto funcionamiento de un paquete concreto. Para saber los paquetes de los que depende, por ejemplo, *stellarium* puede abrir el terminal y teclear: *apt-cache depends stellarium*
 
 Réplica (*mirror*)
-  Copia exacta de un repositorio con la finalidad de
-agilizar el proceso de instalación de paquetes y evitar la descarga
-repetitiva de equipos iguales (caso de un aula de informática). A lo
-largo de este documento se emplea indistintamente tanto *Réplica de
-LliureX* como *LliureX Mirror*.
+  Copia exacta de un repositorio con la finalidad de agilizar el proceso de instalación de paquetes y evitar la descarga repetitiva de equipos iguales (caso de un aula de informática). A lo largo de este documento se emplea indistintamente tanto *Réplica de LliureX* como *LliureX Mirror*.
 
 Requisitos de funcionamiento
 ----------------------------
