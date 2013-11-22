@@ -20,6 +20,10 @@ La Guía de Usuario de LliureX Mirror ha sido desarrollada por el Equipo LliureX
 * Salvador Aznar
 * José Carlos García
 
+Quedan por desarrollar los siguientes apartados:
+
+.. todolist::
+
 Esta obra está bajo una `Licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 3.0 Unported <http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_ES>`_.
 
 .. only:: html

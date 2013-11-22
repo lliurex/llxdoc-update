@@ -1,7 +1,5 @@
 Temas avanzados
 ===============
 
-* Resolución de problemas avanzados
-  - Errores más difíciles de solucionar
-  - Arquitectura de LliureX Mirror
-  - lliurex-mirror-non-gtk
+.. todo::
+  Resolución de problemas avanzados: errores más difíciles de solucionar, arquitectura de LliureX Mirror, uso de la CLI lliurex-mirror-non-gtk, etc.
