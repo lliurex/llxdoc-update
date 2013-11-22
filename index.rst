@@ -9,6 +9,6 @@ Contenidos:
    intro.rst
    configure.rst
    manage.rst
+   troubleshoot.rst
+   advanced.rst
    credits.rst
-..   troubleshoot.rst
-..   advanced.rst
