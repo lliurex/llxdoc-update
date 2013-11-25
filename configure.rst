@@ -25,8 +25,8 @@ Para ello será necesario introducir el repositorio escogido en el campo marcado
 
 .. _replicas_internas:
 
-Réplicas internas (Modelo de Centro)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Réplicas internas
+^^^^^^^^^^^^^^^^^
 
 En caso de tener configurado el Modelo de Centro de LliureX (en el que hay un servidor de centro y otro por cada aula) puede configurar este campo **para que los servidores de aula se actualicen a partir del mirror del servidor de centro**. Para ello deberá introducir http://10.3.0.254/mirror/ en la configuración de LliureX Mirror de cada servidor de aula. De esta manera sólo el servidor de centro se sincronizará con el repositorio central de LliureX.
 
