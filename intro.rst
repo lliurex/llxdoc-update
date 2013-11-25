@@ -1,12 +1,12 @@
-Introducción a LliureX Mirror
-=============================
+Gestión de actualizaciones en LliureX
+=====================================
+
+LliureX es una distribución que está en constante evolución y mejora. Para poder disfrutar de las novedades, y de la corrección de los fallos que van surgiendo, es importante mantener los equipos actualizados. Para mantener los equipos actualizados se emplean dos aplicaciones desarrolladas por LliureX: *LliureX Mirror* y *LliureX Up*.
 
 ¿Qué es LliureX Mirror?
 -----------------------
 
 LliureX Mirror es una aplicación para crear y mantener una copia actualizada (*mirror*) del repositorio de paquetes de LliureX. La función principal de esta copia es la **distribución óptima de la actualización de los equipos de un aula y de todo el centro**. Además, a partir de LliureX Pandora 13.06, **si emplea clientes ligeros** en el centro, mantener una copia del repositorio de LliureX pasa a ser una **parte fundamental y crítica, sin la cual no es posible funcionar**.  
-
-LliureX es una distribución que está en constante evolución y mejora. Para poder disfrutar de las novedades, y de la corrección de los fallos que van surgiendo, es importante mantener los equipos actualizados.
 
 Racionalizar el acceso a Internet para las actualizaciones
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -21,6 +21,17 @@ Novedades
 A partir de LliureX Pandora 13.06 se dispone de **dos arquitecturas: 32 y 64 bits**. Se emplean 32 bits en el equipamiento más antiguo y en la mayoría de clientes ligeros. Por lo tanto, puede ser necesario mantener ambos repositorios con lo cual duplicamos el tamaño necesario para descargar y alojar en el equipo que hará de *mirror* local.
 
 Además, LliureX Mirror le permite guardar en un dispositivo de almacenamiento externo (p.e. disco USB o *pendrive*) una copia del repositorio. Gracias a esta utilidad es posible descargarse el *mirror* en un sitio con buena conectividad y copiarlo en otro con mala o nula conectividad. El ejemplo más claro es el de un aulario o equipo que está aislado o funciona con un enlace *wifi*. Con este **mecanismo de importación y exportación de repositorios** podemos mantener actualizados equipos en dicha situación.
+
+¿Qué es LliureX Up?
+-------------------
+
+LliureX Up es un programa que aplica los cambios y novedades disponibles desde el repositorio configurado. Realiza la descarga de las **versiones nuevas de los paquetes que ya están instalados en nuestro sistema** y aplica la instalación ordenada de los mismos. Adicionalmente, LliureX Up realiza varias comprobaciones y corrige lo que sea necesario para el correcto funcionamiento de las actualizaciones.
+
+LliureX Up es accesible desde:
+
+* *Centro de Control de LliureX*, apartado *Sistema* (aparece como *Actualizador de LliureX*)
+* Menú del sistema, opción *Actualizar software*
+* Desde la línea de comandos, ejecutando la orden *sudo lliurex-upgrade*
 
 Conceptos básicos
 -----------------
