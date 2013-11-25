@@ -1,5 +1,5 @@
-Guía de usuario de LliureX Mirror
-=================================
+Guía de actualización de LliureX
+================================
 
 Contenidos:
 
