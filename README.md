@@ -1,6 +1,6 @@
-llxdoc-mirror
+llxdoc-update
 =============
 
-Guía de Usuario de LliureX Mirror
+Guía de actualización de LliureX
 
-Temporalmente construida en http://llx-mirror.rtfd.org/
+Temporalmente construida en http://llx-update.rtfd.org/
