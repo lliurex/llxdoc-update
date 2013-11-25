@@ -23,6 +23,8 @@ Para ello será necesario introducir el repositorio escogido en el campo marcado
    
    *Especifique otro repositorio para LliureX Mirror*
 
+.. _replicas_internas:
+
 Réplicas internas (Modelo de Centro)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
