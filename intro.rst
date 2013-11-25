@@ -8,10 +8,10 @@ LliureX es una distribución que está en constante evolución y mejora. Para po
 
 LliureX Mirror es una aplicación para crear y mantener una copia actualizada (*mirror*) del repositorio de paquetes de LliureX. La función principal de esta copia es la **distribución óptima de la actualización de los equipos de un aula y de todo el centro**. Además, a partir de LliureX Pandora 13.06, **si emplea clientes ligeros** en el centro, mantener una copia del repositorio de LliureX pasa a ser una **parte fundamental y crítica, sin la cual no es posible funcionar**.  
 
-Racionalizar el acceso a Internet para las actualizaciones
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Racionalizar el acceso a Internet
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-En los centros docentes hay un parque informático numeroso (desde unas pocas decenas de equipos hasta algún que otro centenar, según el centro). En lugar de descargar las actualizaciones desde cada uno de los ordenadores (lo cual colapsaría la conexión a Internet del centro), **es más eficiente descargarse los paquetes nuevos en un solo equipo (que actuará como copia o *mirror* local)**.
+En los centros docentes hay un parque informático numeroso (desde unas pocas decenas de equipos hasta algún que otro centenar, según el centro). En lugar de descargar las actualizaciones desde cada uno de los ordenadores (lo cual colapsaría la conexión a Internet del centro), **es más eficiente descargarse los paquetes nuevos en un solo equipo (que actuará como copia o réplica local)**.
 
 De esta manera, si configuramos adecuadamente los equipos del centro, podremos hacer una actualización a la velocidad de la red local (100 Mbps ó 1 Gbps, dependiendo de la infraestructura existente). Así pues, sólo se utilizaría el ancho de banda de la conexión a Internet para los nuevos paquetes *en un solo equipo*. Tenga en cuenta que, la primera vez que se copia el repositorio, tendrá que descargarlo en su totalidad (actualmente unos 9 GB). Por lo tanto, la duración del proceso inicial de copia será mucho más largo que las actualizaciones posteriores (si se hacen con frecuencia).
 
