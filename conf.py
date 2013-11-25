@@ -40,7 +40,7 @@ source_encoding = 'utf-8-sig'
 master_doc = 'index'
 
 # General information about the project.
-project = u'LliureX Mirror'
+project = u'Actualización de LliureX'
 copyright = u'2013, Equipo LliureX'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -106,10 +106,10 @@ html_theme_path = ['_themes']
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = u'Guía de Usuario de LliureX Mirror v {0}'.format(release)
+html_title = u'Guía de Actualización de LliureX v {0}'.format(release)
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = u'Guía Usuario LliureX Mirror'
+html_short_title = u'Guía de Actualización de LliureX'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -167,7 +167,7 @@ html_use_index = False
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'LliureXMirrordoc'
+htmlhelp_basename = 'ActualizacionLliureXdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -186,7 +186,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'LliureXMirror.tex', u'LliureX Mirror Documentation',
+  ('index', 'ActualizacionLliureX.tex', u'Actualizacion de LliureX',
    u'Equipo LliureX', 'manual'),
 ]
 
@@ -216,7 +216,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'lliurexmirror', u'LliureX Mirror Documentation',
+    ('index', 'actualizacionlliurex', u'Actualización de LliureX',
      [u'Equipo LliureX'], 1)
 ]
 
@@ -230,7 +230,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'LliureXMirror', u'LliureX Mirror Documentation',
+  ('index', 'ActualizacionLliureX', u'Actualización de LliureX',
    u'Equipo LliureX', 'LliureXMirror', 'One line description of project.',
    'Miscellaneous'),
 ]
