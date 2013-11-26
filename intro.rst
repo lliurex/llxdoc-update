@@ -22,6 +22,8 @@ A partir de LliureX Pandora 13.06 se dispone de **dos arquitecturas: 32 y 64 bit
 
 Además, LliureX Mirror le permite guardar en un dispositivo de almacenamiento externo (p.e. disco USB o *pendrive*) una copia del repositorio. Gracias a esta utilidad es posible descargarse el *mirror* en un sitio con buena conectividad y copiarlo en otro con mala o nula conectividad. El ejemplo más claro es el de un aulario o equipo que está aislado o funciona con un enlace *wifi*. Con este **mecanismo de importación y exportación de repositorios** podemos mantener actualizados equipos en dicha situación.
 
+.. _lliurex_up_intro:
+
 ¿Qué es LliureX Up?
 -------------------
 
