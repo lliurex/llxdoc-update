@@ -1,0 +1,214 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Actualización de LliureX 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-27 14:10\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../intro.rst:2
+msgid "Gestión de actualizaciones en LliureX"
+msgstr ""
+
+#: ../../intro.rst:4
+msgid ""
+"LliureX es una distribución que está en constante evolución y mejora. Para "
+"poder disfrutar de las novedades, y de la corrección de los fallos que van "
+"surgiendo, es importante mantener los equipos actualizados. Para mantener "
+"los equipos actualizados se emplean dos aplicaciones desarrolladas por "
+"LliureX: *LliureX Mirror* y *LliureX Up*."
+msgstr ""
+
+#: ../../intro.rst:7
+msgid "¿Qué es LliureX Mirror?"
+msgstr ""
+
+#: ../../intro.rst:9
+msgid ""
+"LliureX Mirror es una aplicación para crear y mantener una copia actualizada"
+" (*mirror*) del repositorio de paquetes de LliureX. La función principal de "
+"esta copia es la **distribución óptima de la actualización de los equipos de"
+" un aula y de todo el centro**. Además, a partir de LliureX Pandora 13.06, "
+"**si emplea clientes ligeros** en el centro, mantener una copia del "
+"repositorio de LliureX pasa a ser una **parte fundamental y crítica, sin la "
+"cual no es posible funcionar**."
+msgstr ""
+
+#: ../../intro.rst:12
+msgid "Racionalizar el acceso a Internet"
+msgstr ""
+
+#: ../../intro.rst:14
+msgid ""
+"En los centros docentes hay un parque informático numeroso (desde unas pocas"
+" decenas de equipos hasta algún que otro centenar, según el centro). En "
+"lugar de descargar las actualizaciones desde cada uno de los ordenadores (lo"
+" cual colapsaría la conexión a Internet del centro), **es más eficiente "
+"descargarse los paquetes nuevos en un solo equipo (que actuará como copia o "
+"réplica local)**."
+msgstr ""
+
+#: ../../intro.rst:16
+msgid ""
+"De esta manera, si configuramos adecuadamente los equipos del centro, "
+"podremos hacer una actualización a la velocidad de la red local (100 Mbps ó "
+"1 Gbps, dependiendo de la infraestructura existente). Así pues, sólo se "
+"utilizaría el ancho de banda de la conexión a Internet para los nuevos "
+"paquetes *en un solo equipo*. Tenga en cuenta que, la primera vez que se "
+"copia el repositorio, tendrá que descargarlo en su totalidad (actualmente "
+"unos 9 GB). Por lo tanto, la duración del proceso inicial de copia será "
+"mucho más largo que las actualizaciones posteriores (si se hacen con "
+"frecuencia)."
+msgstr ""
+
+#: ../../intro.rst:19
+msgid "Novedades"
+msgstr ""
+
+#: ../../intro.rst:21
+msgid ""
+"A partir de LliureX Pandora 13.06 se dispone de **dos arquitecturas: 32 y 64"
+" bits**. Se emplean 32 bits en el equipamiento más antiguo y en la mayoría "
+"de clientes ligeros. Por lo tanto, puede ser necesario mantener ambos "
+"repositorios con lo cual duplicamos el tamaño necesario para descargar y "
+"alojar en el equipo que hará de *mirror* local."
+msgstr ""
+
+#: ../../intro.rst:23
+msgid ""
+"Además, LliureX Mirror le permite guardar en un dispositivo de "
+"almacenamiento externo (p.e. disco USB o *pendrive*) una copia del "
+"repositorio. Gracias a esta utilidad es posible descargarse el *mirror* en "
+"un sitio con buena conectividad y copiarlo en otro con mala o nula "
+"conectividad. El ejemplo más claro es el de un aulario o equipo que está "
+"aislado o funciona con un enlace *wifi*. Con este **mecanismo de importación"
+" y exportación de repositorios** podemos mantener actualizados equipos en "
+"dicha situación."
+msgstr ""
+
+#: ../../intro.rst:28
+msgid "¿Qué es LliureX Up?"
+msgstr ""
+
+#: ../../intro.rst:30
+msgid ""
+"LliureX Up es un programa que aplica los cambios y novedades disponibles "
+"desde el repositorio configurado. Realiza la descarga de las **versiones "
+"nuevas de los paquetes que ya están instalados en nuestro sistema** y aplica"
+" la instalación ordenada de los mismos. Adicionalmente, LliureX Up realiza "
+"varias comprobaciones y corrige lo que sea necesario para el correcto "
+"funcionamiento de las actualizaciones."
+msgstr ""
+
+#: ../../intro.rst:32
+msgid "LliureX Up es accesible desde:"
+msgstr ""
+
+#: ../../intro.rst:34
+msgid ""
+"*Centro de Control de LliureX*, apartado *Sistema* (aparece como "
+"*Actualizador de LliureX*)"
+msgstr ""
+
+#: ../../intro.rst:35
+msgid "Menú del sistema, opción *Actualizar software*"
+msgstr ""
+
+#: ../../intro.rst:36
+msgid "Desde la línea de comandos, ejecutando la orden *sudo lliurex-upgrade*"
+msgstr ""
+
+#: ../../intro.rst:39
+msgid "Conceptos básicos"
+msgstr ""
+
+#: ../../intro.rst:41
+msgid ""
+"Para poder sacar el máximo partido a la herramienta de LliureX Mirror es "
+"necesario tener claro unos conceptos fundamentales. Los vemos a "
+"continuación:"
+msgstr ""
+
+#: ../../intro.rst:44
+msgid "**Repositorio de paquetes** (*pool*)"
+msgstr ""
+
+#: ../../intro.rst:44
+msgid ""
+"Directorio con un conjunto indexado de paquetes dispuestos para su descarga "
+"y posterior instalación. Como ejemplo, puede *navegar* por el repositorio de"
+" LliureX Pandora en: http://lliurex.net/pandora/"
+msgstr ""
+
+#: ../../intro.rst:47
+msgid "**Paquete**"
+msgstr ""
+
+#: ../../intro.rst:47
+msgid ""
+"Archivo comprimido que contiene los ficheros y la información necesaria para"
+" instalar un programa o *parte* de un programa (p.e. una librería). Tienen "
+"la extensión *.deb* (Ubuntu está basado en *Debian* GNU/Linux, de ahí las "
+"letras de la extensión). Si ha navegado por el *pool* habrá encontrado estos"
+" archivos. Podemos ver por ejemplo los paquetes de LliureX Mirror en: "
+"http://lliurex.net/pandora/pool/main/l/lliurex-mirror/"
+msgstr ""
+
+#: ../../intro.rst:50
+msgid "**Dependencia**"
+msgstr ""
+
+#: ../../intro.rst:50
+msgid ""
+"Relación que se establece entre paquetes y que indica la necesidad de "
+"instalar previamente otros paquetes para el correcto funcionamiento de un "
+"paquete concreto. Para saber los paquetes de los que depende, por ejemplo, "
+"*stellarium* puede abrir el terminal y teclear: *apt-cache depends "
+"stellarium*"
+msgstr ""
+
+#: ../../intro.rst:53
+msgid "**Réplica** (*mirror*)"
+msgstr ""
+
+#: ../../intro.rst:53
+msgid ""
+"Copia exacta de un repositorio con la finalidad de agilizar el proceso de "
+"instalación de paquetes y evitar la descarga repetitiva de equipos iguales "
+"(caso de un aula de informática). A lo largo de este documento se emplea "
+"indistintamente tanto *Réplica de LliureX* como *LliureX Mirror*."
+msgstr ""
+
+#: ../../intro.rst:56
+msgid "Requisitos de funcionamiento"
+msgstr ""
+
+#: ../../intro.rst:58
+msgid ""
+"LliureX Mirror viene instalado en cualquier servidor LliureX (Aula, Centro o"
+" Independiente). Para poder utilizarlo en cualquier otro sabor de LliureX "
+"deberá de instalar el paquete *python-lliurex-mirror*."
+msgstr ""
+
+#: ../../intro.rst:60
+msgid ""
+"Disponga el espacio suficiente en el disco duro para almacenar la copia del "
+"repositorio o repositorios (en el caso de que vaya a copiar ambas "
+"arquitecturas, 32 y 64 bits). Igualmente es necesaria una conexión a "
+"Internet de Banda Ancha (sobre todo para la copia inicial)."
+msgstr ""
+
+#: ../../intro.rst:63
+msgid ""
+"Tenga en cuenta que, dependiendo de la frecuencia de las actualizaciones, la"
+" cantidad de archivos a descargar será mayor o menor. Si tardamos uno o "
+"varios meses en actualizar la copia local, el tamaño de la descarga puede "
+"ser de varias decenas de MB (e incluso algun centenar de MB, dependiendo de "
+"lo que se actualice en esas fechas). Así pues, la recomendación es "
+"realizarlas al menos semanalmente."
+msgstr ""
