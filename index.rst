@@ -1,6 +1,8 @@
 Guía de actualización de LliureX
 ================================
 
+.. warning:: Versión en desarrollo. Última actualización (ver pie de página).
+
 Contenidos:
 
 .. toctree::
