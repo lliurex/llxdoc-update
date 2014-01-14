@@ -3,4 +3,4 @@ llxdoc-update
 
 Guía de actualización de LliureX
 
-Construida en http://jcgm.github.io/llxdoc-update/
+Construida en http://lliurex.github.io/llxdoc-update/
